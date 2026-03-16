@@ -214,11 +214,6 @@ export function FeedPage({ id, TOC, clean }: { id: string, TOC: () => JSX.Elemen
                       <span>
                         {feed.pv}
                       </span>
-                      <span> |</span>
-                      <span> {t("count.uv")} </span>
-                      <span>
-                        {feed.uv}
-                      </span>
                     </p>}
                     <div className="flex flex-row items-center">
                       <h1 className="text-2xl font-bold t-primary break-all">
